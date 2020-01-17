@@ -28,6 +28,8 @@ This project started off with gathering the data needed to conduct any analysis.
 
 After that, the team had an ample supply of data to conduct analysis but we also had to __clean the data__, and by we I mean me. First, we normalized and merged all the data. Since not all of the observation measurments were derived the same way. Then I went through the entire dataset and let my mentors know if I seen anything weird/concerning: Lot's of NA's, 0's, Duplicates, etc. 
 
+The dataset we obtained had a little more than 25,000 columns and 400 rows. This is a high-dimesional data set. The team then told me they were concerned with a specific set of genes, 23 genes to be  exact. I don't know why they chose the ones they did, but they know more about the biology than me. So, after all the data preparation the dataset being used for this code had 19 columns and over 300 rows. 19 columns was supposed to be 23, but the data for some of the genes wasn't suitable for analysis or just wasn't there. 
+
 Finally, we had the dataset we wanted to work with. I made some heatmaps, boxplots, and applied LASSO to the dataset. Most of the time was spent getting my data ready vs actually doing machine learning or analysis. 
 
 ### Some things to note
