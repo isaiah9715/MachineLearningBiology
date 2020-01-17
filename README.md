@@ -14,4 +14,4 @@ I'm using Multinomial LASSO which is found in the GLMNET package description [he
 LASSO is great for parsimonious modeling when dealing with high-dimesional n<<p datasets because of the shrinkage it conducts (feature selection). This helps us deal with overfitting. 
 
 ## Workflow
-![]()
+![](thing.png)
