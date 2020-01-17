@@ -1,7 +1,11 @@
 # Stage Dependent Modeling of Cervical Cancer from Gene Expression Data (Machine Learning on Biological Data using R)
 
+## How this README is organized
+1. Project Description
+2. Project Inspiration 
+3. 
 ## Project Description:
-I'm being funded to help the [Wallace Lab](https://wallacelabksu.weebly.com/) at Kansas State University. Specifically, I'm applying [LASSO](https://www.jstor.org/stable/2346178?seq=1), which is an efficient machine learning model used for feature selection and regularization. 
+I'm being funded to help the [Wallace Lab](https://wallacelabksu.weebly.com/) at Kansas State University. Specifically, I'm applying [LASSO](https://www.jstor.org/stable/2346178?seq=1), which is an efficient machine learning model used for feature selection and regularization. I also did boxplot analysis of the genes, and then I made a heatmap of the data by using complete linkage
 
 ## Project Inspiration
 Prophylactic vaccines can prevent the human papillomavirus (HPV) infections that cause cervical cancers (CaCx). Yet, CaCx still kills a woman every 90 seconds. Vaccine hesitancy hinders the herd immunity and broad protection in wealthy countries. Some of the hesitancy comes from the very low rates of CaCx thanks to widespread frequent pap smear screening that are quite effective at providing early interventions that prevent these malignancies. Indeed, the 14 million new HPV infections each year in the US, only result in 13,170 cases of CaCx. In developing countries, where the majority of CaCx deaths occur, fiscal and infrastructural constraints further any hope for a successful vaccination campaign and present significant barriers to pap smear screening. 
@@ -14,4 +18,9 @@ I'm using Multinomial LASSO which is found in the GLMNET package description [he
 LASSO is great for parsimonious modeling when dealing with high-dimesional n<<p datasets because of the shrinkage it conducts (feature selection). This helps us deal with overfitting. 
 
 ## Workflow
+I did some analysis on the specific set of genes my research mentor, Dr. Wallace, is intersted in. There were 23 but I'm only going to show a few here.
 ![](thing.png)
+
+### The Actual Code 
+
+In this repository you'll find 3 different pieces of code. 
