@@ -316,4 +316,4 @@ g
 ```
 ![](Outputs/LASSO_noRAE.png)
 ![](Outputs/LassoMSE_NSFX.png)
-![](Picture1.png)
+![](Outputs/Picture1.png)
