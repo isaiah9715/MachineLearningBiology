@@ -1,3 +1,6 @@
+I was not able to render my R notebook on here like one would be able to with a Juypter Notebook. This means I had to make it a markdown file to include my output. 
+
+Also, the dataset here is the reduced one. It is 262 rows by 22 columns. The original is 313x25200. 
 # Let's take a look at the data
 ```{r}
 #Just reading in the data 
