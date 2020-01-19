@@ -8,6 +8,7 @@ NSFX = read.csv("C:/Users/Isaiah1/Documents/Research/WallaceLab/NSFX_DataSets/th
 head(NSFX)
 dim(NSFX)
 ```
+![](Outputs/Screenshot (14).png)
 ```
 
 # We need to clean up the data in order to construct some heatmaps  
