@@ -1,6 +1,6 @@
 # Stage Dependent Modeling of Cervical Cancer from Gene Expression Data (Machine Learning on Biological Data using R)
 
-## How this README is organized (just scroll to the bottom if you're only looking for code)
+## How this README is organized (If you're only interested in the code it is TheCode.md file)
 1. Project Description
 2. Project Inspiration 
 3. A little bit about LASSO
