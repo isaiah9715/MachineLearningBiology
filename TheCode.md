@@ -2,7 +2,7 @@ I was not able to render my R notebook on here like one would be able to with a 
 
 Also, the dataset here is the reduced one. It is 262 rows by 22 columns. The original is 313x25200. 
 
-The end results are at the bottom. Please feel free to send me a message if you need ana explanation as to what the Lambda charts mean. Also, the end formula is in the form y = b_0 + b_1(x_1) + b_2(x_2) + .... + b_n(x_n)
+The end results are at the bottom. Please feel free to send me a message if you need ana explanation as to what the Lambda charts mean. Also, the end formula is in the form y = b_0 + b_1(x_1) + b_2(x_2) + .... + b_n(x_n)...In very general terms.
 # Let's take a look at the data
 ```{r}
 #Just reading in the data 
