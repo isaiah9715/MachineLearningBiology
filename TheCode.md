@@ -161,7 +161,8 @@ Clustered<-ggplot(data=heat.long, aes(x=variable, y=genes)) + xlab("Stages") + y
   labs(x="Stages", fill="Value")
 print(Clustered)
 ```
-![](Outputs/pptONE.jpeg)
+![](Outputs/Trees.png)
+
 ## Let's take a look at just the heatmap of clustered genes and not stages
 ```{r}
 #Gene Dendogram
@@ -189,7 +190,7 @@ Clustered<-ggplot(data=heat.long, aes(x=variable, y=genes)) + xlab("Stages") + y
   labs(x="Stages", fill="Value")
 print(Clustered)
 ```
-![](Outputs/Trees.png)
+![](Outputs/pptONE.jpeg)
 
 ## Boxplot pictures  
 I just chose two of the boxplots out of the twenty-two I. These are representatives for patterens that we see in other genes  
