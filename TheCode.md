@@ -123,7 +123,7 @@ unclustered = ggplot(heat.long, aes(x=variable, y=genes2)) +
   labs(x="Stages", fill="Value") + ggtitle("Unclustered Heatmap: NSFX Genes")
 print(unclustered)
 ```
-  
+![](Outputs/UnclusteredNSFX.png)  
   
 ## Construction of the dendograms; required for clustering.  
 ```{r}
@@ -161,6 +161,7 @@ Clustered<-ggplot(data=heat.long, aes(x=variable, y=genes)) + xlab("Stages") + y
   labs(x="Stages", fill="Value")
 print(Clustered)
 ```
+![](Outputs/pptONE.jpeg)
 ## Let's take a look at just the heatmap of clustered genes and not stages
 ```{r}
 #Gene Dendogram
@@ -188,13 +189,17 @@ Clustered<-ggplot(data=heat.long, aes(x=variable, y=genes)) + xlab("Stages") + y
   labs(x="Stages", fill="Value")
 print(Clustered)
 ```
+![](Outputs/Trees.png)
+
 ## Boxplot pictures  
-I just chose two of the boxplots out of the twenty-two I made. These are representatives for patterens that we see in other genes  
+I just chose two of the boxplots out of the twenty-two I. These are representatives for patterens that we see in other genes  
   
 ### This is the PPL Gene
-![](PPL.png)
+Notice how when it goes from Control to Stage 3 we see a descending pattern/
+![PPL](Outputs/PPL.png)
 ### This is the SPRG2 Gene
-![]()
+In this one we notice 'blips' in different stages
+![](Outputs/SPRR2G.png)
 
 # It is finally time for the LASSO portion of the project
 ```{r}
@@ -308,3 +313,5 @@ ceofsMin<-as.matrix(coefsMin)
 g<-as.data.frame(ceofsMin)
 g
 ```
+![](Outputs/LASSO_noRAE.png)
+![](Outputs/LassoMSE_NSFX.png)
