@@ -22,7 +22,7 @@ While these screening modalities are quite effective at detecting pre-malignant 
 I'm using Multinomial LASSO which is found in the GLMNET package description [here](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html). It is specifically under the Multinomial Models section of the webpage. 
 
 ### Why LASSO?
-LASSO is great for parsimonious modeling when dealing with high-dimesional n<<p datasets or just multi-dimesional datasets because of the shrinkage it conducts (feature selection). This helps us deal with overfitting. 
+LASSO is great for parsimonious modeling when dealing with high-dimesional n<<p datasets or just multi-dimesional datasets because of the shrinkage it conducts (feature selection). This helps us deal with overfitting. In my case, the LASSO model is doing feature selection only since n>p. 
 
 ## Workflow
 I've been working on this project for almost 6 months now. I have to check in with my research team every week to show them what I'm working on since I am being funded. This also helps me a great deal because they let me know whether my analysis makes sense, because I don't know too much about the biology happeneing. __I'm just the statistician in this research team, which is an honor in itself.__
@@ -31,7 +31,7 @@ This project started off with gathering the data needed to conduct any analysis.
 
 After that, the team had an ample supply of data to conduct analysis but I also had to __clean the data__. First, I normalized and merged all the data. Since not all of the observation measurments were derived the same way normalizing was necessary. Then I went through the entire dataset and let the team know if I seen anything weird/concerning: Lot's of NA's, 0's, Duplicates, etc. 
 
-The dataset we obtained had a little more than 25,000 columns and 400 rows. This is a high-dimesional data set. The team then told me they were concerned with a specific set of genes, 23 genes to be  exact. I don't know why they chose the ones they did, but they know more about the biology than me. So, after all the data preparation the dataset being used for this code had 19 columns and over 300 rows. 19 columns was supposed to be 23, but the data for some of the genes wasn't suitable for analysis or just wasn't there. 
+The dataset we obtained had a little more than 25,000 columns and 400 rows. This is a high-dimesional data set. The team then told me they were concerned with a specific set of genes, 23 genes to be  exact. I don't know why they chose the ones they did, but they know more about the biology than me. So, after all the data preparation the dataset being used for this code had 22 columns and over 260 rows. 22 columns was supposed to be 23, but the data for some of the genes wasn't suitable for analysis or just wasn't there. 
 
 Finally, we had the dataset we wanted to work with. I made some heatmaps, boxplots, and applied LASSO to the dataset. Most of the time was spent getting my data ready vs actually doing machine learning or analysis. 
 
