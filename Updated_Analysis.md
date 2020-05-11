@@ -1,11 +1,7 @@
----
-title: "Dimensionality Reduction via Elastic Net in Cervical Cancer RNAseq Data"
+
+title: "Dimensionality Reduction via LASSO in Cervical Cancer RNAseq Data"
 author: "Isaiah Solorzano"
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
----
+
 
 ```{r  eval=FALSE}
 #load packages & set seed
