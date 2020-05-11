@@ -1,6 +1,6 @@
 
-title: "Dimensionality Reduction via LASSO in Cervical Cancer RNAseq Data"
-author: "Isaiah Solorzano"
+# "Dimensionality Reduction via LASSO in Cervical Cancer RNAseq Data"
+# By Isaiah Solorzano
 
 
 ```{r  eval=FALSE}
@@ -12,7 +12,7 @@ library(ggplot2)
 library(tidyverse)
 ```
 
-#Data Preperation
+# Data Preperation
 ```{r  eval=FALSE}
 #Load the data
 dat = read.csv("C:/Users/16204/Documents/Classes/CIS732/Project_CIS732/raw_dat.csv", header = T)
@@ -129,7 +129,7 @@ ggplot(dat, aes(Stages, ..count..)) + geom_bar(aes(fill=Stages), position = "dod
 ```
 ![](updated_outputs/Class_Distr_minue.png)
 
-#Imputation and Data Splitting
+# Imputation and Data Splitting
 I'm going to impute for missing values using k-nn imputation method (k=1,2,3) and create a testing and training set for each of the imputed datasets.  
 ```{r  eval=FALSE}
 #Load the data
@@ -170,7 +170,7 @@ y0_train = as.matrix(as.factor(train$Stages))
 y0_test = as.matrix(as.factor(test$Stages))
 ```
 
-##Imputation
+## Imputation
 ```{r  eval=FALSE}
 ###############################
 # Imputation training dataset # - Here we will use knn imputation. I'll try a dataset with 1nn 2nn and 3nn
