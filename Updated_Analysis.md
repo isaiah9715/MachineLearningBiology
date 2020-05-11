@@ -157,7 +157,7 @@ test = gene_dat[-train_ind, ]
 #Check out distr again - clear plots to run this one
 ggplot(train, aes(Stages, ..count..)) + geom_bar(aes(fill=Stages), position = "dodge") + stat_count(aes(label=..count..), vjust=0, geom="text", position="identity") + ggtitle("Class Distribution of Training Data") 
 ```
-![](updated_outputs/Class_distr_minus.png)
+![](updated_outputs/class_distr_minus.png)
 
 
 Now, I'll seperate the data from responses Y column vector to the X observation matrix.
