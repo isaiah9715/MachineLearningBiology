@@ -1,4 +1,4 @@
-# PROJECT CURRRENTLY UNDER CONSTRUCTION - New results and methods coming soon
+# Check out the "Updated_Analysis" File. Here, I use LASSO regularization to predict cancer stages and reduce the dimisionality of the model from 18,427 genes to 133 genes! 
 
 # Stage Dependent Modeling of Cervical Cancer from Gene Expression Data (Machine Learning on Biological Data using R)
 
