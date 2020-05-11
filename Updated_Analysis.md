@@ -127,7 +127,7 @@ ggplot(dat, aes(Stages, ..count..)) + geom_bar(aes(fill=Stages), position = "dod
 #write a csv file for the dataset minus the two last classes
 #write.csv(dat, file = "processed_dat_minus.csv")
 ```
-![](updated_outputs/Class_Distr_minue.png)
+![](updated_outputs/Class_distr_minue.png)
 
 # Imputation and Data Splitting
 I'm going to impute for missing values using k-nn imputation method (k=1,2,3) and create a testing and training set for each of the imputed datasets.  
@@ -157,7 +157,7 @@ test = gene_dat[-train_ind, ]
 #Check out distr again - clear plots to run this one
 ggplot(train, aes(Stages, ..count..)) + geom_bar(aes(fill=Stages), position = "dodge") + stat_count(aes(label=..count..), vjust=0, geom="text", position="identity") + ggtitle("Class Distribution of Training Data") 
 ```
-![](updated_outputs/Class_Distr_minus.png)
+![](updated_outputs/Class_distr_minus.png)
 
 
 Now, I'll seperate the data from responses Y column vector to the X observation matrix.
